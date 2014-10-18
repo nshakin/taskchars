@@ -2,7 +2,7 @@
 **taskchars** is a simple Javascript utility for creating HTML character entity based icons including a default set of icons specifically made for task/todo lists.
 
 ## Installation
-Include **taskchars** in the head section of your HTML document:
+Include taskchars in the head section of your HTML document:
 
 	<script type="text/javascript" src="taskchars.js"></script>
 
@@ -14,7 +14,14 @@ Simply call the `TaskIcons` object to return an HTML string containing the forma
 	TaskIcons.complete; // [ ✓ ]
 
 ### Available Icons
-<span class="char-icon" style="color: rgb(46, 204, 113); font-family: Verdana; font-weight: bold; text-align: center; margin: 0px 7px; background: rgb(213, 245, 227);"><span class="char-icon-bracket">[</span><span class="char-icon-text" style="display: inline-block; width: 30px;">✓</span><span class="char-icon-bracket">]</span></span> `TaskIcons.complete;`
+
+<span class="char-icon" style="color: rgb(46, 204, 113); font-family: Verdana; font-weight: bold; text-align: center; margin: 0px 7px; background: rgb(213, 245, 227);">
+<span class="char-icon-bracket">[</span>
+<span class="char-icon-text" style="display: inline-block; width: 30px;">✓</span>
+<span class="char-icon-bracket">]</span>
+</span>
+
+	TaskIcons.complete;
 
 <span class="char-icon" style="color: rgb(149, 165, 166); font-family: Verdana; font-weight: bold; text-align: center; margin: 0px 7px; background: rgb(234, 237, 237);"><span class="char-icon-bracket">[</span><span class="char-icon-text" style="display: inline-block; width: 30px;">&nbsp;</span><span class="char-icon-bracket">]</span></span> `TaskIcons.empty;`
 
