@@ -13,7 +13,6 @@ Simply call the `TaskIcons` object to return an HTML string containing the forma
 
 	TaskIcons.complete; // [ ✓ ]
 
-<br>
 ## Custom Icons
 Creating icons is simple as well.  
 
@@ -27,13 +26,11 @@ Create a new instance of the `TaskIcon` object.  The first parameter is the icon
 
 	var icon = new TaskIcon( '#000', '~', 'new-class', 80 ).buildIconHTML();
 
-<br>
-### Available Icons
+## Available Icons
 This is the preview of the avaliable icons in the script.
 
 ![](icons.png)
 
-<br>
 ## About
 This script serves as my first venture into using both Git for source control and Github as an web-based gallery for my various projects.  I also specifically made this script to help create an icon library suitable for use within Google App Scripts without having to import images and do a lot of extra unnecessary work.  
 
