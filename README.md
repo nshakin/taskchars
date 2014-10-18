@@ -13,10 +13,6 @@ Simply call the `TaskIcons` object to return an HTML string containing the forma
 
 	TaskIcons.complete; // [ ✓ ]
 
-### Available Icons
-
-![](icons.png)
-
 <br>
 ## Custom Icons
 Creating icons is simple as well.  
@@ -30,6 +26,12 @@ Create a new instance of the `TaskIcon` object.  The first parameter is the icon
 2 additional values you can edit for the new icon include the class name and the width:
 
 	var icon = new TaskIcon( '#000', '~', 'new-class', 80 ).buildIconHTML();
+
+<br>
+### Available Icons
+This is the preview of the avaliable icons in the script.
+
+![](icons.png)
 
 <br>
 ## About
