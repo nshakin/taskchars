@@ -15,7 +15,7 @@ Simply call the `TaskIcons` object to return an HTML string containing the forma
 
 ### Available Icons
 
-<img src="icons.png" style="width:400px"/>
+![](icons.png)
 
 <br>
 ## Custom Icons
