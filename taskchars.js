@@ -31,6 +31,7 @@ function TaskIcon(color, charEntity, opt_iconClass, opt_iconWidth) {
             style.fontFamily = 'Verdana';
             style.fontWeight = 'bold';
             style.textAlign = 'center';
+            style.margin = '0 7px';
 
         // Opening bracket HTML
         var open = document.createElement('span');
@@ -55,17 +56,15 @@ function TaskIcon(color, charEntity, opt_iconClass, opt_iconWidth) {
         // set iconHTML with javascript icon object
         return html.outerHTML;
     }
-}
+};
 
 // Premade set of icons for use with task lists
-function TaskIconSet() {
-    return {
-        complete: new TaskIcon('#2ecc71', '&check;').buildIconHTML,
-        empty: new TaskIcon('#95a5a6', '&nbsp;').buildIconHTML,
-        help: new TaskIcon('#9b59b6', '&quest;').buildIconHTML,
-        incomplete: new Task('#e74c3c', '&cross;').buildIconHTML,
-        info: new TaskIcon('#3498db', '&iukcy;').buildIconHTML,
-        starred: new TaskIcon('#e67e22', '&bigstar;').buildIconHTML,
-        warning: new TaskIcon('#f1c40f', '&excl;').buildIconHTML
-    }
-}
+var TaskIconSet = {
+        complete: new TaskIcon('#2ecc71', '&check;').buildIconHTML(),
+        empty: new TaskIcon('#95a5a6', '&nbsp;').buildIconHTML(),
+        help: new TaskIcon('#9b59b6', '&quest;').buildIconHTML(),
+        incomplete: new TaskIcon('#e74c3c', '&cross;').buildIconHTML(),
+        info: new TaskIcon('#3498db', '&iukcy;').buildIconHTML(),
+        starred: new TaskIcon('#e67e22', '&bigstar;').buildIconHTML(),
+        warning: new TaskIcon('#f1c40f', '&excl;').buildIconHTML()
+};

@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>taskchars Default Icons</title>
+	</head>
+	<script type="text/javascript" src="taskchars.js"></script>
+	<script charset="utf-8">
+		// var TaskIcons = new TaskIconsSet;
+		// console.debug( TaskIconsSet );
+	</script>
+	<body>
+		<div id="icons">
+		<script charset="utf-8">
+			document.write( TaskIconSet.complete + 'Completed<br><br>' );
+			document.write( TaskIconSet.empty + 'Empty<br><br>' );
+			document.write( TaskIconSet.help + 'Help<br><br>' );
+			document.write( TaskIconSet.incomplete + 'Incomplete<br><br>' );
+			document.write( TaskIconSet.info + 'Info<br><br>' );
+			document.write( TaskIconSet.starred + 'Starred<br><br>' );
+			document.write( TaskIconSet.warning + 'Warning<br><br>' );
+			document.write( new TaskIcon( '#000', '+' ).buildIconHTML() + 'Custom Icon<br><br>' );
+			document.write( new TaskIcon( '#000', '~', 'new-class', 80 ).buildIconHTML() + 'Custom Icon with optional width set' );
+		</script>
+		</div>
+	</body>
+</html>
